@@ -1,0 +1,145 @@
+* {
+ margin:0
+}
+
+* {
+box-sizing:border-box;
+}
+
+body {
+    width: 1440px;
+    height: 783px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+
+a:hover {
+    color: rgba(227, 184, 115, 1);
+}
+
+.active {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    gap: 60px;
+    right: 350px;
+    list-style: none;
+    margin-top: 107px;
+    margin-left: 50px;
+    font-family: "Yeseva One";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.project {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    width: 1440px;
+    height: 783px;
+}
+
+.completed {
+    display: flex;
+    flex-direction: column;
+    column-gap: 9px;
+}
+
+h1 {
+    padding-top: 176px;
+    padding-left: 134px;
+    width: 291px;
+    height: 66px;
+    color: rgba(227, 184, 115, 1);
+    font-family: "Yeseva One";
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    text-transform: uppercase;
+}
+
+.projects__text {
+    margin-left: 134px;
+    margin-top: 100px;
+    margin-bottom: 42px;
+    width: 442px;
+    height: 86px;
+    color: rgb(255, 255, 255);
+    font-family: "Nunito Sans";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+}
+
+h2 {
+    font-family: "Yeseva One";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(227, 184, 115, 1);
+    text-transform: uppercase;
+}
+
+.info {
+    display: grid;
+    grid-template: repeat(2, 41px)/ repeat(2, 125px);
+    column-gap: 95px;
+    row-gap: 34px;
+    margin-left: 134px;
+    margin-top: 42px;
+}
+
+.info_text {
+    font-family: "Nunito Sans";
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.slider {
+    position: relative;
+}
+
+.stroka {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 205px;
+    height: 13px;
+    margin-left: 135px;
+    margin-top: 79px;
+}
+
+.slider_arrow {
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+.ball {
+    color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+
+.slider_img {
+    position: relative;
+    width: 679px;
+    height: 482px;
+    margin-top: 176px;
+    margin-left: 50px;
+}
+
+.slider_img img {
+    width: 100%; 
+    height: auto; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+}
